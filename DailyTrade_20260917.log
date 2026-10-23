@@ -1,0 +1,35 @@
+2026-09-17 23:23:17,595 | INFO | Connected to OpenD at 127.0.0.1:11111
+2026-09-17 23:23:17,620 | INFO | Hot list (2 stocks): US.SPCX, US.INTC
+2026-09-17 23:23:17,621 | WARNING | US.SPCX: could not fetch quote (SPCX Before calling the Get Real-time Quotes interface, please subscribe to Basic data first.)
+2026-09-17 23:23:17,622 | WARNING | US.INTC: could not fetch quote (INTC Before calling the Get Real-time Quotes interface, please subscribe to Basic data first.)
+2026-09-17 23:23:17,622 | INFO | Candidates to watch for VWAP breakout (0): (none)
+2026-09-17 23:23:33,798 | INFO | Connected to OpenD at 127.0.0.1:11111
+2026-09-17 23:23:33,825 | INFO | Hot list (2 stocks): US.SPCX, US.INTC
+2026-09-17 23:23:34,821 | INFO | US.SPCX premarket amplitude (8:00-9:30 ET) = 0.908%  -> CANDIDATE
+2026-09-17 23:23:34,888 | INFO | US.INTC premarket amplitude (8:00-9:30 ET) = 1.039%  -> CANDIDATE
+2026-09-17 23:23:34,888 | INFO | Candidates to watch for VWAP breakout (2): US.SPCX, US.INTC
+2026-09-17 23:23:49,868 | INFO | Connected to OpenD at 127.0.0.1:11111
+2026-09-17 23:23:49,895 | INFO | US.SPCX CROSS: last=154.81 vwap=154.63
+2026-09-17 23:23:49,923 | INFO | ALERT SENT to Moomoo: US.SPCX crossed above VWAP at 154.81 (reminder key=1789701830321695680)
+2026-09-17 23:38:25,680 | INFO | Connected to OpenD at 127.0.0.1:11111
+2026-09-17 23:39:49,347 | INFO | Connected to OpenD at 127.0.0.1:11111
+2026-09-17 23:43:28,141 | INFO | Connected to OpenD at 127.0.0.1:11111
+2026-09-17 23:43:28,166 | INFO | Hot list (2 stocks): US.SPCX, US.INTC
+2026-09-17 23:43:45,461 | INFO | Hot list (2 stocks): US.SPCX, US.INTC
+2026-09-17 23:43:45,461 | INFO | Computing premarket amplitude (8:00-9:30 AM ET) for 2 stock(s)...
+2026-09-17 23:43:45,464 | WARNING | US.SPCX: could not fetch quote (SPCX Before calling the Get Real-time Quotes interface, please subscribe to Basic data first.)
+2026-09-17 23:43:45,464 | WARNING | US.SPCX: no premarket amplitude data available
+2026-09-17 23:43:45,465 | WARNING | US.INTC: could not fetch quote (INTC Before calling the Get Real-time Quotes interface, please subscribe to Basic data first.)
+2026-09-17 23:43:45,466 | WARNING | US.INTC: no premarket amplitude data available
+2026-09-17 23:43:45,466 | INFO | Candidates to watch for VWAP breakout (0): (none)
+2026-09-17 23:44:19,400 | INFO | Connected to OpenD at 127.0.0.1:11111
+2026-09-17 23:44:19,425 | INFO | Hot list (2 stocks): US.SPCX, US.INTC
+2026-09-17 23:44:33,866 | INFO | Hot list (2 stocks): US.SPCX, US.INTC
+2026-09-17 23:44:33,866 | INFO | Computing premarket amplitude (8:00-9:30 AM ET) for 2 stock(s)...
+2026-09-17 23:44:35,401 | INFO | US.SPCX premarket amplitude = 0.908%  -> CANDIDATE
+2026-09-17 23:44:35,481 | INFO | US.INTC premarket amplitude = 1.039%  -> CANDIDATE
+2026-09-17 23:44:35,481 | INFO | Candidates to watch for VWAP breakout (2): US.SPCX, US.INTC
+2026-09-17 23:44:35,508 | INFO | Monitoring 2 candidate(s) for VWAP breakout until 4:00 PM ET.
+2026-09-17 23:44:35,538 | INFO | Market closed. Monitor finished for today.
+2026-09-17 23:46:36,151 | INFO | Connected to OpenD at 127.0.0.1:11111
+2026-09-17 23:46:36,177 | INFO | Hot list (2 stocks): US.SPCX, US.INTC

@@ -1,0 +1,13 @@
+{
+  "selected_group": "\u65e5\u5185",
+  "rules": {
+    "rule1": {
+      "name": "Rule 1: VWAP Cross",
+      "enabled": true
+    },
+    "rule2": {
+      "name": "Rule 2: Premarket High Cross",
+      "enabled": true
+    }
+  }
+}

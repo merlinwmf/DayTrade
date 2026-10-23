@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Process | Where-Object { $_.ProcessName -match 'python' } | Select-Object Id, ProcessName, MainWindowTitle, StartTime)",
+      "PowerShell(Stop-Process -Id 33152 -Force -ErrorAction SilentlyContinue)",
+      "PowerShell(Write-Host \"Exists: $\\(Test-Path 'E:\\\\Coding\\\\Stock\\\\DayPick'\\)\"; Get-ChildItem 'E:\\\\Coding\\\\Stock' -Force | Select-Object Name)",
+      "Read(//e/Coding/Stock/DayPick/**)",
+      "PowerShell(chcp 65001 > $null)",
+      "PowerShell(python \"C:\\\\Users\\\\Merlin\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\e--Coding-Stock-DayTrade\\\\f0a95913-cd2a-4d9d-a882-907d62ccc8a5\\\\scratchpad\\\\check_group_sizes.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\Merlin\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\e--Coding-Stock-DayTrade\\\\f0a95913-cd2a-4d9d-a882-907d62ccc8a5\\\\scratchpad\\\\check_group_errors.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\Merlin\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\e--Coding-Stock-DayTrade\\\\f0a95913-cd2a-4d9d-a882-907d62ccc8a5\\\\scratchpad\\\\test_run_pick.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\Merlin\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\e--Coding-Stock-DayTrade\\\\f0a95913-cd2a-4d9d-a882-907d62ccc8a5\\\\scratchpad\\\\check_kline_quota.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\Merlin\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\e--Coding-Stock-DayTrade\\\\f0a95913-cd2a-4d9d-a882-907d62ccc8a5\\\\scratchpad\\\\verify_pick_list.py\")",
+      "PowerShell(Get-Process -Id 19140 -ErrorAction SilentlyContinue)",
+      "Read(//e/Coding/Stock/DayPick/dist/DayPick/**)",
+      "PowerShell(Start-Process \"E:\\\\Coding\\\\Stock\\\\DayPick\\\\dist\\\\DayPick\\\\DayPick.exe\" -PassThru)",
+      "PowerShell(Get-Process -Name DayPick -ErrorAction SilentlyContinue)",
+      "PowerShell(Stop-Process -Id 2852 -Force -ErrorAction SilentlyContinue)",
+      "PowerShell(Stop-Process -Id 18992 -Force -ErrorAction SilentlyContinue)",
+      "PowerShell(Start-Process \"E:\\\\Coding\\\\Stock\\\\DayTrade\\\\dist\\\\DailyTrade\\\\DailyTrade.exe\" -PassThru)",
+      "PowerShell(Get-Process -Name DailyTrade -ErrorAction SilentlyContinue)",
+      "PowerShell(Stop-Process -Id 7888 -Force -ErrorAction SilentlyContinue)",
+      "Read(//e/Coding/Stock/ios16_ui_kit/**)",
+      "PowerShell(Get-Process -Name python -ErrorAction SilentlyContinue | Where-Object {$_.MainWindowTitle -eq 'DailyTrade'} | Stop-Process -Force -ErrorAction SilentlyContinue; \"done\")",
+      "PowerShell(Stop-Process -Id 10044 -Force -ErrorAction SilentlyContinue)",
+      "PowerShell(Stop-Process -Id 33492 -Force -ErrorAction SilentlyContinue)",
+      "PowerShell(python -c \"import webview; print\\('pywebview version:', webview.__version__\\)\")",
+      "PowerShell(pip install pywebview 2>&1)",
+      "PowerShell(Stop-Process -Id 27032 -Force -ErrorAction SilentlyContinue)",
+      "PowerShell(Stop-Process -Id 34580 -Force -ErrorAction SilentlyContinue)",
+      "PowerShell(Stop-Process -Force -ErrorAction SilentlyContinue)",
+      "Read(//e/Coding/Stock/DayPick/web/**)",
+      "Read(//e/Coding/Stock/DayPick/dist/DayPick/_internal/web/**)",
+      "Read(//e/Coding/**)",
+      "Read(//e/Coding/Stock/UIDesign/**)"
+    ],
+    "additionalDirectories": [
+      "E:\\Coding\\Stock\\DayPick",
+      "E:\\Coding\\Stock\\ios16_ui_kit",
+      "E:\\Coding\\Stock\\DayPick\\web",
+      "E:\\Coding\\Stock\\ios16_web_kit"
+    ]
+  }
+}

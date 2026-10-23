@@ -1,0 +1,24 @@
+2026-09-18 00:31:05,076 | INFO | Connected to OpenD at 127.0.0.1:11111
+2026-09-18 00:31:05,103 | INFO | "Hot" list (3 stocks): US.INTC, US.META, US.SPCX
+2026-09-18 00:31:05,639 | WARNING | US.INTC: could not fetch premarket kline (Empty DataFrame
+Columns: [code, name, time_key, open, close, high, low, pe_ratio, turnover_rate, volume, turnover, change_rate, last_close]
+Index: [])
+2026-09-18 00:31:05,682 | WARNING | US.META: could not fetch premarket kline (Empty DataFrame
+Columns: [code, name, time_key, open, close, high, low, pe_ratio, turnover_rate, volume, turnover, change_rate, last_close]
+Index: [])
+2026-09-18 00:31:05,723 | WARNING | US.SPCX: could not fetch premarket kline (Empty DataFrame
+Columns: [code, name, time_key, open, close, high, low, pe_ratio, turnover_rate, volume, turnover, change_rate, last_close]
+Index: [])
+2026-09-18 00:31:05,755 | INFO | "Hot" list (3 stocks): US.INTC, US.META, US.SPCX
+2026-09-18 00:31:05,824 | INFO | Moved US.SPCX to top of "Hot" list
+2026-09-18 00:31:05,851 | INFO | "Hot" list (3 stocks): US.SPCX, US.INTC, US.META
+2026-09-18 00:31:58,212 | INFO | Connected to OpenD at 127.0.0.1:11111
+2026-09-18 00:31:58,410 | INFO | "持仓" list (16 stocks): CC.BTC, US.MAGS, US.FXI, US.ASHR, US.ARKK, US.GLD, US.MU, US.ASML, US.JPM, US.GS, US.TLT, US.GOOGL, US.MSFT, US.UNH, US.IGV, US.TSM
+2026-09-18 00:33:19,223 | INFO | Connected to OpenD at 127.0.0.1:11111
+2026-09-18 00:33:19,413 | INFO | "持仓" list (16 stocks): CC.BTC, US.MAGS, US.FXI, US.ASHR, US.ARKK, US.GLD, US.MU, US.ASML, US.JPM, US.GS, US.TLT, US.GOOGL, US.MSFT, US.UNH, US.IGV, US.TSM
+2026-09-18 00:35:20,881 | INFO | Connected to OpenD at 127.0.0.1:11111
+2026-09-18 00:35:21,075 | INFO | "持仓" list (16 stocks): CC.BTC, US.MAGS, US.FXI, US.ASHR, US.ARKK, US.GLD, US.MU, US.ASML, US.JPM, US.GS, US.TLT, US.GOOGL, US.MSFT, US.UNH, US.IGV, US.TSM
+2026-09-18 00:35:34,883 | INFO | "持仓" list (16 stocks): CC.BTC, US.MAGS, US.FXI, US.ASHR, US.ARKK, US.GLD, US.MU, US.ASML, US.JPM, US.GS, US.TLT, US.GOOGL, US.MSFT, US.UNH, US.IGV, US.TSM
+2026-09-18 00:37:14,894 | INFO | Stopped before market open.
+2026-09-18 00:52:36,042 | INFO | Connected to OpenD at 127.0.0.1:11111
+2026-09-18 00:52:36,212 | INFO | "持仓" list (16 stocks): CC.BTC, US.MAGS, US.FXI, US.ASHR, US.ARKK, US.GLD, US.MU, US.ASML, US.JPM, US.GS, US.TLT, US.GOOGL, US.MSFT, US.UNH, US.IGV, US.TSM

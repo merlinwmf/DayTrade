@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Test-NetConnection -ComputerName 127.0.0.1 -Port 11111 -WarningAction SilentlyContinue)"
+    ]
+  }
+}
